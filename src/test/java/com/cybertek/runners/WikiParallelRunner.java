@@ -8,7 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = "json:target/cucumber3.json",
         features = "src/test/resources/features/WikiSearch.feature",
-        glue = "com/cybertek/step_definitions"
+        glue = "com/cybertek/step_definitions",
+        tags="@wikiScenarioOutline "
+
 )
+
 public class WikiParallelRunner {
+
 }

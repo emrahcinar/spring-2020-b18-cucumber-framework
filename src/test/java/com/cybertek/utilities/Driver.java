@@ -63,7 +63,7 @@ public class Driver {
                     try {
                         //to request grid to run tests on firefox
                         FirefoxOptions firefoxOptions = new FirefoxOptions();
-                        URL url = new URL("http://3.235.145.39:4444/wd/hub");
+                        URL url = new URL("http://54.237.39.241:4444/wd/hub");
                         driver = new RemoteWebDriver(url, firefoxOptions);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
